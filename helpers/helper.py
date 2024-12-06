@@ -42,4 +42,5 @@ def order_by(data):
 
 def reverse(data):
     # todo
-    pass
+    reversed_data = data[::-1]
+    return QuerySet(reversed_data)
